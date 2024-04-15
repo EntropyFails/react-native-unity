@@ -47,6 +47,7 @@ Pod::Spec.new do |s|
   <<-CMD
     echo "Directory is"
     pwd
+    ls -al ../../..
     cp -R ../../../unity/builds/ios/ ios/
   CMD
 
